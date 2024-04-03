@@ -1,0 +1,14 @@
+@each $name, $value in $breakpoint-rule {
+  @media (min-width: $value) {
+    @each $col-name, $color in $color-scheme {
+      .#{$name}bg-#{$col-name} {
+        background-color: $color !important;
+      }
+    }
+    @each $col-name, $color in $colors {
+      .#{$name}bg-#{$col-name} {
+        background-color: $color !important;
+      }
+    }
+  }
+}

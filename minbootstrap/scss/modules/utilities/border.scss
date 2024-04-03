@@ -1,0 +1,52 @@
+@each $name, $value in $breakpoint-rule {
+  @media (min-width: $value) {
+    .#{$name}rounded {
+      border-radius: $rounded;
+      &-tl {
+        border-top-left-radius: $rounded;
+      }
+      &-tr {
+        border-top-right-radius: $rounded;
+      }
+      &-bl {
+        border-bottom-left-radius: $rounded;
+      }
+      &-br {
+        border-bottom-right-radius: $rounded;
+      }
+    }
+    .#{$name}circle {
+      border-radius: 50%;
+    }
+    @each $color-name, $color in $colors {
+      .#{$name}bd-#{$color-name} {
+        border: 1px solid $color;
+      }
+      @each $dir-name, $var in $bd-direction {
+        .#{$name}bd-#{$dir-name}-#{$color-name} {
+          border#{$var}: 1px solid $color;
+        }
+      }
+    }
+    @each $color-name, $color in $color-scheme {
+      .#{$name}bd-#{$color-name} {
+        border: 1px solid $color;
+      }
+      @each $dir-name, $var in $bd-direction {
+        .#{$name}bd-#{$dir-name}-#{$color-name} {
+          border#{$var}: 1px solid $color;
+        }
+      }
+    }
+    @for $i from 1 through 16 {
+      .#{$name}bd-#{$i} {
+        border-width: $i + 0px;
+      }
+      @each $dir-name, $var in $bd-direction {
+        .#{$name}bd-#{$dir-name}-#{$i} {
+          border#{$var}-width: $i + 0px;
+        }
+      }
+    }
+  }
+}

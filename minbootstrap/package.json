@@ -1,0 +1,51 @@
+{
+  "_from": "@r.phuwanat/minbootstrap@^1.8.7",
+  "_id": "@r.phuwanat/minbootstrap@1.8.7",
+  "_inBundle": false,
+  "_integrity": "sha512-3CrsnpDI5LxE+MV0O535DFZHISV44kvhW+SnDbrciRGO5jq0UEOrzgL8IaBsLx/cynZolbbFundgcanz2OZAjA==",
+  "_location": "/@r.phuwanat/minbootstrap",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@r.phuwanat/minbootstrap@^1.8.7",
+    "name": "@r.phuwanat/minbootstrap",
+    "escapedName": "@r.phuwanat%2fminbootstrap",
+    "scope": "@r.phuwanat",
+    "rawSpec": "^1.8.7",
+    "saveSpec": null,
+    "fetchSpec": "^1.8.7"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@r.phuwanat/minbootstrap/-/minbootstrap-1.8.7.tgz",
+  "_shasum": "05457dba74efa093e81c66b4d4d3c4b741638347",
+  "_spec": "@r.phuwanat/minbootstrap@^1.8.7",
+  "_where": "/Users/md/Dev/md/arena-3.0",
+  "author": {
+    "name": "R.Phuwanat"
+  },
+  "bugs": {
+    "url": "https://github.com/pwnrrk/minbootstrap/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Minimal Alternative Bootstrap",
+  "homepage": "https://pwnrrk.github.io/minimalbootstrap",
+  "keywords": [
+    "bootstrap",
+    "minimal"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@r.phuwanat/minbootstrap",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwnrrk/minbootstrap.git"
+  },
+  "scripts": {
+    "test": "Test"
+  },
+  "version": "1.8.7"
+}
